@@ -1,4 +1,4 @@
-//PRACTICA 2 C++
+//PRACTICA 4 C++
 //EDUARDO VELAZQUEZ
 
 #include<iostream>
@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
 	int f, c;
 	float a[maxf][maxc];
-	//leer el array
+	//Escribir el array
 	cout << "Introduzca los datos: " << endl;
 	for(f =0 ; f< maxf; f++){
 		for (c = 0; c < maxc; c++) {
@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
 		}
 	}
 
-	//Escribir el array
+	//Leer el array
 
 	cout << "Sus datos son los siguientes: " << endl;
 	for (f = 0; f < maxf; f++) {
